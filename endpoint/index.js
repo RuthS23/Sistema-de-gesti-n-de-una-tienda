@@ -2,7 +2,7 @@
 
 const peticionApi = async () => {
 
-    const peticionGet = await fetch("https://pokeapi.co/api/v2/pokemon/PARAMETRO_INCORRECTO");
+    const peticionGet = await fetch("https://pokeapi.co/api/v2/pokemon/bulbasaur");
 
     const datosPokemon = await peticionGet.json();
 
