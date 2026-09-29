@@ -14,19 +14,15 @@ Productos
 Responsables
 Ruth Saldaña e Santiago Roman
 Operaciones:
-• Registrar nuevos productos (POST /productos)
 • Consultar catálogo y detalle (GET /productos)
-• Actualizar precios y descripción (PUT /productos/:id)
-• Eliminar/Desactivar productos (DELETE /productos/:id)
+• Actualizar descripción (PUT /productos/:id)
 Microservicio 2:
+Ordenar por categorias
 Inventario
 Responsables
 Erick Perez e David Rodríguez
 Operaciones:
-• Consultar existencias de stock (GET /inventario)
-• Registrar entradas de stock (POST /inventario/entrada)
-• Registrar salidas o mermas (POST /inventario/salida)
-• Generar alertas automáticas de stock mínimo (GET /inventario/alertas)
+Consultar lista completa por categorias (GET /inventario)
 Requisitos e Instalación
 Clonar el repositorio: git clone https://github.com/tu-organizacion/ecommerce-abarrotes-microservicios.git
 Acceder al directorio: cd ecommerce-abarrotes-microservicios
